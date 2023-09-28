@@ -1,0 +1,22 @@
+########################  part1   ###########
+fastq_path=/media/tempdata1/kaijing/pipeline_test/fastq_hi1
+fastq_num=1      
+thread=80
+bwa_path=     
+
+The_path_of_code=/media/tempdata1/kaijing/pipeline_test/code            
+The_path_of_juicer_tools=/media/tempdata1/kaijing/pipeline_test/code/juicer_tools_yc.jar
+output_folder=/media/tempdata1/kaijing/pipeline_test/test_hi1
+output_name=test
+
+restriction_enzyme=Arima
+ligation=
+
+
+restriction_file_of_human=/home/kaijing/restriction/hg19_h_arima.txt
+restriction_file_of_mouse=/home/kaijing/restriction/mm10_m_arima.txt
+
+genome_file_of_human=/home/kaijing/reference/hg19_mm10_mix/hg19_h.chrom.sizes
+genome_file_of_mouse=/home/kaijing/reference/hg19_mm10_mix/mm10_m.chrom.sizes
+
+reference_file_of_mix=/home/kaijing/reference/hg19_mm10_mix/mix.fa

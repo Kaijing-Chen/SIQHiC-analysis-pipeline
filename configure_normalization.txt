@@ -1,0 +1,19 @@
+########################  part2   ###########
+The_output_path_of_A_sample=/media/tempdata2/kaijing/SIQHiC/pipeline_test/hi1_small_dataset
+The_output_path_of_B_sample=/media/tempdata2/kaijing/SIQHiC/pipeline_test/low1_small_dataset
+The_path_of_code=/media/tempdata1/kaijing/pipeline_test/code
+genome_version=hg19
+The_path_of_analysis_output=/media/tempdata1/kaijing/pipeline_test
+
+
+
+The normalization for analysis=KR
+APA=1
+A_B_compartment=1
+hicFindTADs=1
+
+virtual_4C_viewpoint=chr12:1000-19923
+
+
+
+#1 means do this analysis, 0 means don't
